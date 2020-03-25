@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     cap = cv2.VideoCapture(0)
 
-    original_rgb = cv2.imread("arduino_capa.png")  # Imagem a procurar
+    original_rgb = cv2.imread("insper.png")  # Imagem a procurar
     img_original = cv2.cvtColor(original_rgb, cv2.COLOR_BGR2GRAY)
     #original_rgb = cv2.cvtColor(original_bgr, cv2.COLOR_BGR2RGB)
 

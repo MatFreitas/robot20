@@ -3,6 +3,10 @@
 Atenção: o grupo de 3 pessoas desta atividade deve se manter fixo até a entrega do projeto. Você **pode trocar** o grupo com que fez atividades anteriores. 
 
 
+**Data de entrega: 6/04**
+
+A entrega deverá ser via Blackboard com **código** e **comprovação em vídeo**. 
+
 
 No ROS a OpenCV trabalha com base em eventos. Esta atividade permite que você estude isso mais a fundo
 
@@ -33,6 +37,10 @@ Atualize ou clone o `my_simulation`:
     git pull  
 
 ```
+
+Certifique-se de que o caminho dos modelos contidos no `my_simulation` esteja contido no `.bashrc` (olhe se contém a linha abaixo): 
+
+    export GAZEBO_MODEL_PATH=~/catkin_ws/src/my_simulation/models:${GAZEBO_MODEL_PATH}
 
 Lembre-se de **sempre** executar o `catkin_make` depois de criar novos arquivos `*.py`
 

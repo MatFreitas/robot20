@@ -140,7 +140,11 @@ Num prompt do Cygwin, digite os comandos a seguir:
 
 Depois, para instalar o 'p7zip', faça:
 
-    apt-cyg install p7zip
+    bash apt-cyg install p7zip
+    
+No final da instalação vai aparecer a mensagem de instalação com sucesso:
+
+    Package p7zip installed
 
 Depois de fazer a instalação, digite 7z --help no prompt do Cygwin para ver se foi bem sucedida. Em caso positivo, deve aparecer algo assim
 
